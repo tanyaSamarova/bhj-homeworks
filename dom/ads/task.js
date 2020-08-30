@@ -1,7 +1,7 @@
 'use strict'
 
 const rotatorCase = document.querySelectorAll('.rotator__case');
-const number = 0;
+let  number = 0;
 
 function changeAds() {
     rotatorCase[number].classList.remove('rotator__case_active');           
